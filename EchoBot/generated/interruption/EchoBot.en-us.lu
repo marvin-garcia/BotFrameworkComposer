@@ -1,0 +1,60 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 7.0.0
+
+
+> # Intent definitions
+
+# weather
+- get weather
+- weather
+- how is the weather
+- tell me the weather
+- what is the weather please
+- get weather in 12345
+- how is the weather in 54321
+- tell me the weather in 98765
+- what is the weather please in 78945
+
+
+@ intent weather usesFeature zipcode
+
+# help
+- help
+- I need help
+- please help me
+- can you help
+
+
+# cancel
+- cancel
+- please cancel
+- stop that
+- i want to stop
+- stop it
+
+
+# startover
+- start over
+- reset
+- I want to start again
+- start again
+
+
+> # Entity definitions
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+> # RegEx entities
+
+@ regex zipcode = /[0-9]{5}/
+

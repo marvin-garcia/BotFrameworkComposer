@@ -1,0 +1,13 @@
+{
+  "EchoBot.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "weather": [
+        "GetWeather.en-us"
+      ],
+      "help": [
+        "GetHelp.en-us"
+      ]
+    }
+  }
+}

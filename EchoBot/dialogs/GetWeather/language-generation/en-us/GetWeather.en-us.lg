@@ -1,0 +1,49 @@
+[import](common.lg)
+
+# SendActivity_SJPJXo()
+- let's check the weather
+# SendActivity_ohydeu()
+[ThumbnailCard
+    title = Weather for ${dialog.weather.city}
+    text = The weather is ${dialog.weather.weather} and ${dialog.weather.temp}&deg;
+    image = ${dialog.weather.icon}
+]
+# SendActivity_6cwA2g()
+- I got an error: ${dialog.api_response.content.message}
+
+# DescribeWeather(weather)
+- IF: ${weather.weather=="Clouds"}
+    - It is cloudy
+- ELSEIF: ${weather.weather=="Thunderstorm"}
+    - There's a thunderstorm
+- ELSEIF: ${weather.weather=="Drizzle"}
+    - It is drizzling
+- ELSEIF: ${weather.weather=="Rain"}
+    - It is raining
+- ELSEIF: ${weather.weather=="Snow"}
+    - There's snow
+- ELSEIF: ${weather.weather=="Clear"}
+    - The sky is clear
+- ELSEIF: ${weather.weather=="Mist"}
+    - There's a mist in the air
+- ELSEIF: ${weather.weather=="Smoke"}
+    - There's smoke in the air
+- ELSEIF: ${weather.weather=="Haze"}
+    - There's a haze
+- ELSEIF: ${weather.weather=="Dust"}
+    - There's a dust in the air
+- ELSEIF: ${weather.weather=="Fog"}
+    - It's foggy
+- ELSEIF: ${weather.weather=="Ash"}
+    - There's ash in the air
+- ELSEIF: ${weather.weather=="Squall"}
+    - There's a squall
+- ELSEIF: ${weather.weather=="Tornado"}
+    - There's a tornado happening
+- ELSE:
+    - ${weather.weather}
+# TextInput_Prompt_YoaSTz()
+[Activity
+    Text = What is your zip code?
+    SuggestedActions = help | cancel
+]
