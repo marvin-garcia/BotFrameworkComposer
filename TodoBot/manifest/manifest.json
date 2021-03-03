@@ -1,0 +1,131 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.8/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.8",
+    "version": "1.0.0",
+    "id": "e252aaf2-b04a-4cc7-a3cb-653a360ab56d",
+    "packageName": "magarcorp.bot.todolist",
+    "localizationInfo": {
+      "defaultLanguageTag": "en-us"
+    },
+    "developer": {
+      "name": "Marvin Garcia",
+      "websiteUrl": "https://website.com/",
+      "privacyUrl": "https://website.com/privacy",
+      "termsOfUseUrl": "https://website.com/app-tos",
+      "mpnId": "1234567890"
+    },
+    "name": {
+      "short": "To-do list bot",
+      "full": "To-Do list Chat bot"
+    },
+    "description": {
+      "short": "Chat bot that lets you manage a to-do list",
+      "full": "Chat bot that lets you manage a to-do list"
+    },
+    "icons": {
+      "outline": "icon-32px.png",
+      "color": "icon-192px.png"
+    },
+    "accentColor": "#000000",
+    "staticTabs": [
+      {
+        "entityId": "46a31a93-6a4b-4e6f-a5b2-f6c79941c4aa",
+        "scopes": [
+          "personal"
+        ],
+        "context":[
+          "personalTab",
+          "channelTab"
+          ],
+        "name": "To-Do List Tab",
+        "contentUrl": "https://teamsstorageaccount.blob.core.windows.net/content/content.html?sp=r&st=2021-03-03T16:28:05Z&se=2022-01-01T00:28:05Z&spr=https&sv=2020-02-10&sr=b&sig=6k3ebePcmcta1L5a%2FG%2BjldaN2ZpUCFhPZNDqX5xcdqU%3D"
+      }
+    ],
+    "bots": [
+      {
+        "botId": "e252aaf2-b04a-4cc7-a3cb-653a360ab56d",
+        "scopes": [
+          "team",
+          "personal",
+          "groupchat"
+        ],
+        "needsChannelSelector": false,
+        "isNotificationOnly": false,
+        "supportsFiles": true,
+        "supportsCalling": false,
+        "supportsVideo": false,
+        "commandLists": [
+          {
+            "scopes": [
+              "team",
+              "personal",
+              "groupchat"
+            ],
+            "commands": [
+              {
+                "title": "Add item to groceries list",
+                "description": "Add item to groceries list"
+              },
+              {
+                "title": "Add item to shopping list",
+                "description": "Add item to shopping list"
+              },
+              {
+                "title": "Add item to to-do list",
+                "description": "Add item to to-do list"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "devicePermissions": [
+      "geolocation",
+      "media",
+      "notifications",
+      "midi",
+      "openExternal"
+    ],
+    "validDomains": [],
+    "webApplicationInfo": {
+      "id": "e252aaf2-b04a-4cc7-a3cb-653a360ab56d",
+      "resource": "http://notapplicable",
+      "applicationPermissions": [
+        "TeamSettings.Read.Group",
+        "ChannelSettings.Read.Group",
+        "ChannelSettings.Edit.Group",
+        "Channel.Create.Group",
+        "Channel.Delete.Group",
+        "ChannelMessage.Read.Group",
+        "TeamsApp.Read.Group",
+        "TeamsTab.Read.Group",
+        "TeamsTab.Create.Group",
+        "TeamsTab.Edit.Group",
+        "TeamsTab.Delete.Group",
+        "Member.Read.Group",
+        "Owner.Read.Group",
+        "Member.ReadWrite.Group",
+        "Owner.ReadWrite.Group"
+      ]
+    },
+    "showLoadingIndicator": true,
+    "isFullScreen": false,
+    "activities": {
+      "activityTypes": [
+        {
+          "type": "taskCreated",
+          "description": "Task created activity",
+          "templateText": "<team member> created task <taskId> for you"
+        },
+        {
+          "type": "userMention",
+          "description": "Personal mention activity",
+          "templateText": "<team member> mentioned you"
+        }
+      ]
+    }
+  }
