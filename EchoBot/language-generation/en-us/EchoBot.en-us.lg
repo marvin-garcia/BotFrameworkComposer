@@ -1,8 +1,0 @@
-[import](common.lg)
-
-# SendActivity_Welcome()
-- Hi! I'm a friendly bot that can help with the weather. Try saying WEATHER.
-- Hello! I am Weather Bot! Say WEATHER to get the current conditions.
-- Howdy! Weather bot is my name and weather is my game.
-# SendActivity_003038
-- You said '${turn.activity.text}'
