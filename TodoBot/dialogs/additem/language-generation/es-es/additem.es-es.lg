@@ -1,0 +1,8 @@
+[import](common.lg)
+
+# TextInput_Prompt_282825()
+- Que le gustaria agregar?
+# TextInput_Prompt_878594()
+- Seleccione una lista para agregar el sujeto..
+# SendActivity_139532()
+- Listo. He agregado **${dialog.itemTitle}** a la lista **${dialog.listType}** . Usted tiene ${count(user.lists[dialog.listType])} tareas en la lista.

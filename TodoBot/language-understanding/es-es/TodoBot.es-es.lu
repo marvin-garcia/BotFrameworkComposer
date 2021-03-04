@@ -1,0 +1,265 @@
+
+# Add
+- agregar tarea
+- Por favor recordarme de {itemTitle=comprar leche}
+- Por favor recuerda que tengo que {itemTitle=comprar leche}
+- Por favor recuerda que debo {itemTitle=comprar leche}
+- Necesito que recuerdes que {itemTitle=el cumpleanos de mi esposa es el 5 de marzo}
+- agregar tarea con el nombre {itemTitle=enviar reporte el fin de semana}
+- agregar {itemTitle=comprar carro nuevo} a la lista de tareas
+- agregar {itemTitle=escribir un reporte} a la lista
+- agregar {itemTitle=terminar el demo} a mi lista de tareas
+- agregar a todo item {itemTitle=limpiar el apartamento}
+- agregar {itemTitle=llamar a mi mama} a mi lista de tareas
+- agregar {itemTitle=fecha de expiracion de leche mantequilla de mani} en la lista de tareas
+- agregar {itemTitle=salir a correr} a mi lista
+- agregar a mi lista {itemTitle=enviar correo al seguro antes del sabado}
+- puedo agregar {itemTitle=camisas} a mi lista de tareas
+- podria agregar {itemTitle=medicina} a mi lista de tareas
+- podrias agregar {itemTitle=crema agria} a mi lista de tareas
+- agregar {itemTitle} a mi lista de tareas
+- agregar {itemTitle=comprar un sueter bonito}
+- agregar una entrada de {itemTitle=comprar zapatos}
+- agregar una tarea para {itemTitle=hacer deberes en la casa}
+- agregar {itemTitle=ir al supermercado} in my to do list
+- agregar {itemTitle=leer} a mi lista de tareas
+- agregar esto en la lista
+- agregar a mi lista de tareas {itemTitle=recoger la ropa}
+- agregar a mi lista de tareas {itemTitle=imprimir 10 copias esta tarde}
+- crear lista de tareas
+- create to do that {itemTitle=leer un libro esta noche}
+- create to do to {itemTitle=salir a correr al parque}
+- coloca {itemTitle=caminar} en mi lista
+- recuerdame {itemTitle = recoger la ropa de la tintoeria}
+- nueva lista
+- agregar otra
+- agregar
+
+> add patterns
+- [Por favor] recordarme [de] {itemTitle}
+- [Por favor] recuerda [que tengo que] {itemTitle}
+- [Por favor] recuerda [que debo] {itemTitle}
+- [Necesito que] recuerdes [que] {itemTitle}
+- agregar tarea con el nombre {itemTitle}
+- agregar {itemTitle} a la lista [de tareas]
+- agregar {itemTitle} a la lista
+- agregar {itemTitle} a mi lista [de tareas]
+- agregar a todo item {itemTitle}
+- agregar {itemTitle} en la lista [de tareas]
+- agregar {itemTitle} a mi lista
+- agregar a mi lista {itemTitle}
+- [puedo] agregar {itemTitle} a mi lista [de tareas]
+- [podria] agregar {itemTitle} a mi lista [de tareas]
+- [podrias] agregar {itemTitle} a mi lista [de tareas]
+- agregar {itemTitle}
+- agregar una entrada de {itemTitle}
+- agregar una tarea para {itemTitle}
+- agregar {itemTitle} en la lista
+- agregar a mi lista de tareas {itemTitle}
+- crear lista de tareas
+- crear lista [para] {itemTitle}
+- crear lista [de] {itemTitle}
+- coloca {itemTitle} en mi lista
+- recuerdame {itemTitle}
+
+> entity definitions
+@ ml itemTitle
+
+@ list listType = 
+	- todo :
+	      - to do
+            - quehaceres
+            - lavanderia         
+      - grocery :
+            - comestibles
+            - frutas
+            - vegetales
+            - articulos de casa
+            - articulos de limpieza
+      - shopping : 
+            - compras
+            - compra
+
+> phrase list definitions
+@ phraseList agregarItem(interchangeable) = 
+	- agregar
+    - agrega
+	- colocar
+	- coloca
+    - sumar
+    - suma
+
+>
+# Delete
+- elimina todo
+- marca {itemTitle=comprar leche} como listo
+- coloca la {itemTitle=primera tarea} como completa
+- coloca la {itemTitle=primera tarea} como terminada
+- elimina {itemTitle=terminar el demo} de la lista de tareas
+- elimina otro
+- elimina
+- eliminar la tarea {itemTitle=comprar carro nuevo}
+- ya termine la primera tarea
+- termine la ultima tarea
+- borra el primer elemento
+- borra lista
+- limpia mi lista
+- borra todas las tareas
+- elimina todas las tareas
+- olvida la lista
+- olvida la lista de tareas
+- vacia la lista
+- puedes eliminar {itemTitle=todo1}
+- podrias borrar la tarea {itemTitle=xxx}
+- borra {itemTitle=huevos} de la lista
+- saca {itemTitle=pancake mix} de la lista de compras
+- elimina {itemTitle=shampoo} de la lista de compras
+- descarta {itemTitle=shirts} de la lista
+- elimina tarea {itemTitle=ir a pescar}
+- elimina tarea {itemTitle=ir al cine esta noche}
+- elimina la entrada {itemTitle=comprar calcetines} de mi lista
+- elimina la segunda tarea de la lista de compras
+- elimina la tarea {itemTitle=limpiar la casa}
+- elimina la tarea que se llama {itemTitle=it al gym en las mananas}
+- elimina la tarea {itemTitle=verme con mis amigos en la noche}
+- borrar {itemTitle=comprar leche}
+- borrar {itemTitle=go shopping}
+- borrar {itemTitle=ir a caminar manana}
+- elimina {itemTitle=bananas} de la lista de compras
+- descarta {itemTitle=peanuts} de la lista de compras
+- elimina {itemTitle=asprin} de la lista de compras
+- elimina {itemTitle=black shoes} de la lista de compras
+- elimina {itemTitle=class} de la lista de compras
+- elimina {itemTitle=salad vegetables} de la lista de comestibles
+- elimina tarea {itemTitle=comprar comida de perro}
+- elimina {itemTitle=salir de compras}
+- olvidate de {itemTitle=ir a caminar}
+- olvida {itemTitle=cortar el cesped}
+- elimina {itemTitle=paris} de mi lista
+
+> Add patterns
+- [por favor] elimina todo
+- [puedes] marca {itemTitle} como listo
+- [podrias] coloca la {itemTitle} como completa
+- coloca la {itemTitle} como terminada
+- elimina {itemTitle} de la lista [de tareas]
+- elimina otro
+- elimina
+- eliminar [la tarea] {itemTitle}
+- ya termine la [primera] tarea
+- termine la [ultima] tarea
+- borra el [primer] elemento
+- borra lista
+- limpia [mi] lista
+- borra [todas] las tareas
+- elimina [todas] las tareas
+- olvida la lista
+- olvida la lista [de tareas]
+- vacia la lista
+- [puedes] eliminar {itemTitle}
+- [podrias] borrar la tarea {itemTitle}
+- borra {itemTitle} de la lista
+- saca {itemTitle} de la lista [de compras]
+- elimina {itemTitle} de la lista [de compras]
+- descarta {itemTitle} de la lista
+- elimina tarea {itemTitle}
+- elimina tarea {itemTitle}
+- elimina la entrada {itemTitle} de mi lista
+- elimina la segunda tarea de la lista [de compras]
+- elimina la tarea {itemTitle}
+- elimina la tarea que se llama {itemTitle}
+- borrar {itemTitle}
+- descarta {itemTitle} de la lista [de compras]
+- elimina {itemTitle} de la lista [de comestibles]
+- elimina tarea {itemTitle}
+- elimina {itemTitle}
+- olvidate de {itemTitle}
+- olvida {itemTitle}
+- elimina {itemTitle} de mi lista
+
+> entity definitions
+@ ml itemTitle
+
+> phrase list definitions
+@ phraseList deleteItem(interchangeable) = 
+	- eliminar
+    - elimina
+	- borrar
+    - borra
+	- limpiar
+    - limpia
+	- descartar
+    - descarta
+# View
+- muestra mi lista
+- muestrame la lista
+- puedes mostrarme mi lista?
+- podrias mostrarme mi lista de tareas?
+- puedo ver mi lista de tareas?
+- por favor muestra mi lista de tareas
+- mi lista por favor
+- mi lista, por favor
+- necesito ver mi lista de comestibles
+- me muestras mi lista?
+- que tengo en mi lista?
+- que tengo pendiente en mi lista de compras?
+- que hay en mi lista?
+- que hay en la lista de compras?
+- tengo algo pendiente en la lista?
+- espero que no haya nada en la lista
+- cuantas tareas me quedan?
+- muestrame mas tareas
+- ver mi lista
+- me gustaria ver la lista
+- me gustaria saber que hay en mi lista
+- muestra todas las listas
+- muestrame mis listas
+
+> add patterns
+- muestra [mi] lista
+- muestrame [la] lista
+- puedes mostrarme mi lista?
+- podrias mostrarme mi lista [de tareas]?
+- puedo ver mi lista [de tareas]?
+- por favor muestra mi lista [de tareas]
+- mi lista [por favor]
+- mi lista, [por favor]
+- necesito ver mi lista [de comestibles]
+- me muestras mi lista?
+- que tengo en mi lista?
+- que tengo pendiente en mi lista [de compras]?
+- que hay en [mi] lista?
+- que hay en la lista [de compras]?
+- tengo algo [pendiente] en la lista?
+- espero que no haya nada en la lista
+- cuantas tareas me quedan?
+- muestrame mas tareas
+- ver [mi] lista
+- me gustaria ver la lista
+- me gustaria saber que hay en mi lista
+- muestra todas las listas
+- muestrame mis listas
+# whatCanYouDo
+- que puedes hacer?
+# cancel
+- cancelar
+- cancela
+- cancela eso
+- alto
+- abortar
+- cerrar
+- salir
+# ConfirmInput_Response_107784
+- si
+- no
+
+@ list confirmation = 
+    - yes : 
+		    - yeah
+		    - ok
+		    - yup
+    - no :
+        - nope
+        - not now
+        - not really
+        - go back

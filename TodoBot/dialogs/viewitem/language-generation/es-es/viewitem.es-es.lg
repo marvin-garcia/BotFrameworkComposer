@@ -1,0 +1,27 @@
+[import](common.lg)
+
+# TextInput_Prompt_308464()
+- Que lista le gustaria ver?
+# SendActivity_996807()
+- ${showLists()}
+
+# showLists
+- SWITCH : ${dialog.listType}
+    - CASE : ${'todo'}
+        - ${list(user.lists.todo, 'todo')}
+    - CASE : ${'grocery'}
+        - ${list(user.lists.grocery, 'grocery')}
+    - CASE : ${'shopping'}
+        - ${list(user.lists.shopping, 'shopping')}
+    - DEFAULT : 
+        - ```
+        ${list(user.lists.todo, 'todo')}
+        ${list(user.lists.grocery, 'grocery')}
+        ${list(user.lists.shopping, 'shopping')}
+        ```
+
+# list(collection, name)
+- IF : ${collection != null}
+    - Usted tiene ${count(collection)} tarea(s) en la lista **${name}**. \n ${join(foreach(collection, item, concat('- ', item)), '\n')}
+- ELSE : 
+    - Actualmente no tiene ninguna tarea en la lista **${name}**.

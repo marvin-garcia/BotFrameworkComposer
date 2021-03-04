@@ -131,25 +131,6 @@
     {
       "$kind": "Microsoft.OnIntent",
       "$designer": {
-        "id": "802923"
-      },
-      "intent": "UserProfile",
-      "condition": "#UserProfile.Score > 0.6",
-      "actions": [
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "187925",
-            "name": "Begin a new dialog"
-          },
-          "activityProcessed": true,
-          "dialog": "userprofile"
-        }
-      ]
-    },
-    {
-      "$kind": "Microsoft.OnIntent",
-      "$designer": {
         "id": "732966"
       },
       "intent": "whatCanYouDo",

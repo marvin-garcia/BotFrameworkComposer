@@ -1,0 +1,200 @@
+
+> LUIS application information
+> !# @app.versionId = 0.1
+> !# @app.culture = en-us
+> !# @app.luis_schema_version = 3.2.0
+
+
+> # Intent definitions
+
+# TextInput_Response_282825
+- agregar tarea
+- Por favor recordarme de {@itemTitle=comprar leche}
+- Por favor recuerda que tengo que {@itemTitle=comprar leche}
+- Por favor recuerda que debo {@itemTitle=comprar leche}
+- Necesito que recuerdes que {@itemTitle=el cumpleanos de mi esposa es el 5 de marzo}
+- agregar tarea con el nombre {@itemTitle=enviar reporte el fin de semana}
+- agregar {@itemTitle=comprar carro nuevo} a la lista de tareas
+- agregar {@itemTitle=escribir un reporte} a la lista
+- agregar {@itemTitle=terminar el demo} a mi lista de tareas
+- agregar a todo item {@itemTitle=limpiar el apartamento}
+- agregar {@itemTitle=llamar a mi mama} a mi lista de tareas
+- agregar {@itemTitle=fecha de expiracion de leche mantequilla de mani} en la lista de tareas
+- agregar {@itemTitle=salir a correr} a mi lista
+- agregar a mi lista {@itemTitle=enviar correo al seguro antes del sabado}
+- puedo agregar {@itemTitle=camisas} a mi lista de tareas
+- podria agregar {@itemTitle=medicina} a mi lista de tareas
+- podrias agregar {@itemTitle=crema agria} a mi lista de tareas
+- agregar {@itemTitle=comprar un sueter bonito}
+- agregar una entrada de {@itemTitle=comprar zapatos}
+- agregar una tarea para {@itemTitle=hacer deberes en la casa}
+- agregar {@itemTitle=ir al supermercado} in my to do list
+- agregar {@itemTitle=leer} a mi lista de tareas
+- agregar esto en la lista
+- agregar a mi lista de tareas {@itemTitle=recoger la ropa}
+- agregar a mi lista de tareas {@itemTitle=imprimir 10 copias esta tarde}
+- crear lista de tareas
+- create to do that {@itemTitle=leer un libro esta noche}
+- create to do to {@itemTitle=salir a correr al parque}
+- coloca {@itemTitle=caminar} en mi lista
+- recuerdame {@itemTitle=recoger la ropa de la tintoeria}
+- nueva lista
+- agregar otra
+- agregar
+- agregar {@itemTitle} a mi lista de tareas
+
+
+# ChoiceInput_Response_878594
+- lista de tareas
+- lista de compras
+- que tal la lista?
+
+
+> # Entity definitions
+
+@ ml itemTitle
+
+
+> # PREBUILT Entity definitions
+
+
+> # Phrase list definitions
+
+
+> # List entities
+
+@ list listType = 
+	- todo :
+		- to do
+		- quehaceres
+		- lavanderia
+	- grocery :
+		- comestibles
+		- frutas
+		- vegetales
+		- articulos de casa
+		- articulos de limpieza
+	- shopping :
+		- compras
+		- compra
+
+
+> # RegEx entities
+
+
+
+
+> Source: cross training. Please do not edit these directly!
+# _Interruption
+- elimina todo
+- marca comprar leche como listo
+- coloca la primera tarea como completa
+- coloca la primera tarea como terminada
+- elimina terminar el demo de la lista de tareas
+- elimina otro
+- elimina
+- eliminar la tarea comprar carro nuevo
+- ya termine la primera tarea
+- termine la ultima tarea
+- borra el primer elemento
+- borra lista
+- limpia mi lista
+- borra todas las tareas
+- elimina todas las tareas
+- olvida la lista
+- olvida la lista de tareas
+- vacia la lista
+- puedes eliminar todo1
+- podrias borrar la tarea xxx
+- borra huevos de la lista
+- saca pancake mix de la lista de compras
+- elimina shampoo de la lista de compras
+- descarta shirts de la lista
+- elimina tarea ir a pescar
+- elimina tarea ir al cine esta noche
+- elimina la entrada comprar calcetines de mi lista
+- elimina la segunda tarea de la lista de compras
+- elimina la tarea limpiar la casa
+- elimina la tarea que se llama it al gym en las mananas
+- elimina la tarea verme con mis amigos en la noche
+- borrar comprar leche
+- borrar go shopping
+- borrar ir a caminar manana
+- elimina bananas de la lista de compras
+- descarta peanuts de la lista de compras
+- elimina asprin de la lista de compras
+- elimina black shoes de la lista de compras
+- elimina class de la lista de compras
+- elimina salad vegetables de la lista de comestibles
+- elimina tarea comprar comida de perro
+- elimina salir de compras
+- olvidate de ir a caminar
+- olvida cortar el cesped
+- elimina paris de mi lista
+- [por favor] elimina todo
+- [puedes] marca {@itemTitle} como listo
+- [podrias] coloca la {@itemTitle} como completa
+- coloca la {@itemTitle} como terminada
+- elimina {@itemTitle} de la lista [de tareas]
+- eliminar [la tarea] {@itemTitle}
+- ya termine la [primera] tarea
+- termine la [ultima] tarea
+- borra el [primer] elemento
+- limpia [mi] lista
+- borra [todas] las tareas
+- elimina [todas] las tareas
+- olvida la lista [de tareas]
+- [puedes] eliminar {@itemTitle}
+- [podrias] borrar la tarea {@itemTitle}
+- borra {@itemTitle} de la lista
+- saca {@itemTitle} de la lista [de compras]
+- elimina {@itemTitle} de la lista [de compras]
+- descarta {@itemTitle} de la lista
+- elimina tarea {@itemTitle}
+- elimina la entrada {@itemTitle} de mi lista
+- elimina la segunda tarea de la lista [de compras]
+- elimina la tarea {@itemTitle}
+- elimina la tarea que se llama {@itemTitle}
+- borrar {@itemTitle}
+- descarta {@itemTitle} de la lista [de compras]
+- elimina {@itemTitle} de la lista [de comestibles]
+- elimina {@itemTitle}
+- olvidate de {@itemTitle}
+- olvida {@itemTitle}
+- elimina {@itemTitle} de mi lista
+- muestra mi lista
+- muestrame la lista
+- puedes mostrarme mi lista?
+- podrias mostrarme mi lista de tareas?
+- puedo ver mi lista de tareas?
+- por favor muestra mi lista de tareas
+- mi lista por favor
+- mi lista, por favor
+- necesito ver mi lista de comestibles
+- me muestras mi lista?
+- que tengo en mi lista?
+- que tengo pendiente en mi lista de compras?
+- que hay en mi lista?
+- que hay en la lista de compras?
+- tengo algo pendiente en la lista?
+- espero que no haya nada en la lista
+- cuantas tareas me quedan?
+- muestrame mas tareas
+- ver mi lista
+- me gustaria ver la lista
+- me gustaria saber que hay en mi lista
+- muestra todas las listas
+- muestrame mis listas
+- muestra [mi] lista
+- muestrame [la] lista
+- podrias mostrarme mi lista [de tareas]?
+- puedo ver mi lista [de tareas]?
+- por favor muestra mi lista [de tareas]
+- mi lista [por favor]
+- mi lista, [por favor]
+- necesito ver mi lista [de comestibles]
+- que tengo pendiente en mi lista [de compras]?
+- que hay en [mi] lista?
+- que hay en la lista [de compras]?
+- tengo algo [pendiente] en la lista?
+- ver [mi] lista

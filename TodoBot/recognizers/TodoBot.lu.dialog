@@ -3,6 +3,7 @@
   "id": "LUIS_TodoBot",
   "recognizers": {
     "en-us": "TodoBot.en-us.lu",
-    "": "TodoBot.en-us.lu"
+    "": "TodoBot.en-us.lu",
+    "es-es": "TodoBot.es-es.lu"
   }
 }

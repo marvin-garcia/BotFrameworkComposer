@@ -1,0 +1,55 @@
+
+# TextInput_Response_282825
+- agregar tarea
+- Por favor recordarme de {itemTitle=comprar leche}
+- Por favor recuerda que tengo que {itemTitle=comprar leche}
+- Por favor recuerda que debo {itemTitle=comprar leche}
+- Necesito que recuerdes que {itemTitle=el cumpleanos de mi esposa es el 5 de marzo}
+- agregar tarea con el nombre {itemTitle=enviar reporte el fin de semana}
+- agregar {itemTitle=comprar carro nuevo} a la lista de tareas
+- agregar {itemTitle=escribir un reporte} a la lista
+- agregar {itemTitle=terminar el demo} a mi lista de tareas
+- agregar a todo item {itemTitle=limpiar el apartamento}
+- agregar {itemTitle=llamar a mi mama} a mi lista de tareas
+- agregar {itemTitle=fecha de expiracion de leche mantequilla de mani} en la lista de tareas
+- agregar {itemTitle=salir a correr} a mi lista
+- agregar a mi lista {itemTitle=enviar correo al seguro antes del sabado}
+- puedo agregar {itemTitle=camisas} a mi lista de tareas
+- podria agregar {itemTitle=medicina} a mi lista de tareas
+- podrias agregar {itemTitle=crema agria} a mi lista de tareas
+- agregar {itemTitle} a mi lista de tareas
+- agregar {itemTitle=comprar un sueter bonito}
+- agregar una entrada de {itemTitle=comprar zapatos}
+- agregar una tarea para {itemTitle=hacer deberes en la casa}
+- agregar {itemTitle=ir al supermercado} in my to do list
+- agregar {itemTitle=leer} a mi lista de tareas
+- agregar esto en la lista
+- agregar a mi lista de tareas {itemTitle=recoger la ropa}
+- agregar a mi lista de tareas {itemTitle=imprimir 10 copias esta tarde}
+- crear lista de tareas
+- create to do that {itemTitle=leer un libro esta noche}
+- create to do to {itemTitle=salir a correr al parque}
+- coloca {itemTitle=caminar} en mi lista
+- recuerdame {itemTitle = recoger la ropa de la tintoeria}
+- nueva lista
+- agregar otra
+- agregar
+# ChoiceInput_Response_878594
+- lista de tareas
+- lista de compras
+- que tal la lista?
+
+@ list listType = 
+	- todo :
+	      - to do
+            - quehaceres
+            - lavanderia         
+      - grocery :
+            - comestibles
+            - frutas
+            - vegetales
+            - articulos de casa
+            - articulos de limpieza
+      - shopping : 
+            - compras
+            - compra

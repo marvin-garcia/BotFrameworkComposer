@@ -1,0 +1,21 @@
+[import](common.lg)
+
+# SendActivity_202664()
+[Activity
+    Text = Hola, como puedo ayudarle hoy?
+    SuggestedActions = Agregar | Mostrar | Eliminar | Perfil
+]
+# foo
+- test
+
+# SendActivity_269411()
+- ${@answer}
+
+# TextInput_Prompt_107784()
+- Esta seguro que desea cancelar?
+# SendActivity_140076()
+- Por supuesto. Cancelando dialogos.
+# SendActivity_272233()
+- Por supuesto.
+# SendActivity_037398()
+- No entiendo lo que quiere decir. Podria decirlo de otra manera?

@@ -1,0 +1,25 @@
+
+# ChoiceInput_Response_308464
+- lista de tareas
+- lista de compras
+- que tal la lista?
+
+@ list listType = 
+	- all : 
+		- todo
+		- todas las tareas
+        - todas
+	- todo :
+        - tarea
+        - tareas
+        - lavanderia
+        - quehaceres
+      - grocery :
+        - comestibles
+            - frutas
+            - vegetales
+            - articulos de casa
+            - articulos de limpieza
+      - shopping : 
+        - compras
+            - compra

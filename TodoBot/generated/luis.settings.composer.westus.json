@@ -1,23 +1,35 @@
 {
     "luis": {
-        "userprofile_en_us_lu": {
-            "appId": "886e8304-5711-4814-8d36-8aa3b10e9ea2",
-            "version": "0.1"
+        "deleteitem_en_us_lu": {
+            "appId": "3948f112-c27e-4d55-bc70-965d9b10fed2",
+            "version": "0.2"
         },
         "additem_en_us_lu": {
             "appId": "82ea0297-296c-46ee-a319-f79d0990cc50",
-            "version": "0.2"
+            "version": "0.3"
+        },
+        "additem_es_es_lu": {
+            "appId": "abe0a851-0f05-4235-ba1d-7eeeacb89d18",
+            "version": "0.1"
+        },
+        "deleteitem_es_es_lu": {
+            "appId": "ef23e901-056b-44d5-84dd-9b62bae458bc",
+            "version": "0.1"
         },
         "TodoBot_en_us_lu": {
             "appId": "0f7dad82-7f51-40be-a3b5-77969ae97005",
-            "version": "0.3"
+            "version": "0.4"
         },
-        "deleteitem_en_us_lu": {
-            "appId": "3948f112-c27e-4d55-bc70-965d9b10fed2",
+        "viewitem_es_es_lu": {
+            "appId": "af1b6ac0-0fee-46eb-91c4-257c1be85187",
             "version": "0.1"
         },
         "viewitem_en_us_lu": {
             "appId": "7fbef82c-839e-4699-a93b-ea92177bae43",
+            "version": "0.2"
+        },
+        "TodoBot_es_es_lu": {
+            "appId": "13cc23e9-e8a7-4e8d-b254-d3797631cf44",
             "version": "0.1"
         }
     }

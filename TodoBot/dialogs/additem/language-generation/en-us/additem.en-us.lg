@@ -8,6 +8,3 @@
 
 # SendActivity_139532()
 - Sure. I've added **${dialog.itemTitle}** to **${dialog.listType}** list. You have ${count(user.lists[dialog.listType])} items in your list.
-
-
-

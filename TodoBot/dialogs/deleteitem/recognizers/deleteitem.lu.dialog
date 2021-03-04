@@ -3,6 +3,7 @@
   "id": "LUIS_deleteitem",
   "recognizers": {
     "en-us": "deleteitem.en-us.lu",
-    "": "deleteitem.en-us.lu"
+    "": "deleteitem.en-us.lu",
+    "es-es": "deleteitem.es-es.lu"
   }
 }

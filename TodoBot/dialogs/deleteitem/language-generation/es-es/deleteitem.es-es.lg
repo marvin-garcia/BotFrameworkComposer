@@ -1,0 +1,22 @@
+[import](common.lg)
+[import](viewitem.lg)
+
+# TextInput_Prompt_461607()
+- De que lista desea eliminar la tarea?
+
+> This LG template is defined in viewitem. You can refer to this with an import statement (see line #2)
+# SendActivity_555579()
+- ${showLists()}
+
+# SendActivity_534454()
+- ${showLists()}
+
+# TextInput_Prompt_702637()
+- Que desea eliminar? \n Puede usar el numero de la tarea o el texto exacto
+# SendActivity_728630()
+- Seguro, eliminando ${dialog.itemTitle} de ${dialog.listType}
+# SendActivity_015149()
+- ${showLists()}
+
+# SendActivity_121384()
+- No hay nada que eliminar...

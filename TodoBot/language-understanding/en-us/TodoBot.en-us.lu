@@ -192,17 +192,6 @@
 - what do i have on my list?
 
 
-# UserProfile
-- get started
-- my name is {@userName}
-- Profile
-
-@ prebuilt personName hasRoles userName
-
-
-
-
-
 # whatCanYouDo
 - what can you do?
 

@@ -11,18 +11,22 @@
       "View": [
         "viewitem.en-us"
       ],
-      "UserProfile": [
-        "userprofile.en-us"
-      ],
       "cancel": []
     }
   },
-  "userprofile.en-us": {
-    "rootDialog": false,
+  "TodoBot.es-es": {
+    "rootDialog": true,
     "triggers": {
-      "Cancel": [],
-      "Why": [],
-      "NoValue": []
+      "Add": [
+        "additem.es-es"
+      ],
+      "Delete": [
+        "deleteitem.es-es"
+      ],
+      "View": [
+        "viewitem.es-es"
+      ],
+      "cancel": []
     }
   }
 }

@@ -1,0 +1,143 @@
+
+# ChoiceInput_Response_461607
+- lista de tareas
+- lista de compras
+- que tal la lista?
+
+@ list listType = 
+	- todo :
+	      - to do
+            - quehaceres
+            - lavanderia         
+      - grocery :
+            - comestibles
+            - frutas
+            - vegetales
+            - articulos de casa
+            - articulos de limpieza
+      - shopping : 
+            - compras
+            - compra
+# ChoiceInput_Response_652623
+- elimina todo
+- marca {itemTitle=comprar leche} como listo
+- coloca la {itemTitle=primera tarea} como completa
+- coloca la {itemTitle=primera tarea} como terminada
+- elimina {itemTitle=terminar el demo} de la lista de tareas
+- elimina otro
+- elimina
+- eliminar la tarea {itemTitle=comprar carro nuevo}
+- ya termine la primera tarea
+- termine la ultima tarea
+- borra el primer elemento
+- borra lista
+- limpia mi lista
+- borra todas las tareas
+- elimina todas las tareas
+- olvida la lista
+- olvida la lista de tareas
+- vacia la lista
+- puedes eliminar {itemTitle=todo1}
+- podrias borrar la tarea {itemTitle=xxx}
+- borra {itemTitle=huevos} de la lista
+- saca {itemTitle=pancake mix} de la lista de compras
+- elimina {itemTitle=shampoo} de la lista de compras
+- descarta {itemTitle=shirts} de la lista
+- elimina tarea {itemTitle=ir a pescar}
+- elimina tarea {itemTitle=ir al cine esta noche}
+- elimina la entrada {itemTitle=comprar calcetines} de mi lista
+- elimina la segunda tarea de la lista de compras
+- elimina la tarea {itemTitle=limpiar la casa}
+- elimina la tarea que se llama {itemTitle=it al gym en las mananas}
+- elimina la tarea {itemTitle=verme con mis amigos en la noche}
+- borrar {itemTitle=comprar leche}
+- borrar {itemTitle=go shopping}
+- borrar {itemTitle=ir a caminar manana}
+- elimina {itemTitle=bananas} de la lista de compras
+- descarta {itemTitle=peanuts} de la lista de compras
+- elimina {itemTitle=asprin} de la lista de compras
+- elimina {itemTitle=black shoes} de la lista de compras
+- elimina {itemTitle=class} de la lista de compras
+- elimina {itemTitle=salad vegetables} de la lista de comestibles
+- elimina tarea {itemTitle=comprar comida de perro}
+- elimina {itemTitle=salir de compras}
+- olvidate de {itemTitle=ir a caminar}
+- olvida {itemTitle=cortar el cesped}
+- elimina {itemTitle=paris} de mi lista
+
+> entity definitions
+@ ml itemTitle
+
+> phrase list definitions
+@ phraseList deleteItem(interchangeable) = 
+	- eliminar
+    - elimina
+	- borrar
+    - borra
+	- limpiar
+    - limpia
+	- descartar
+    - descarta
+# ChoiceInput_Response_702637
+- elimina todo
+- marca {itemTitle=comprar leche} como listo
+- coloca la {itemTitle=primera tarea} como completa
+- coloca la {itemTitle=primera tarea} como terminada
+- elimina {itemTitle=terminar el demo} de la lista de tareas
+- elimina otro
+- elimina
+- eliminar la tarea {itemTitle=comprar carro nuevo}
+- ya termine la primera tarea
+- termine la ultima tarea
+- borra el primer elemento
+- borra lista
+- limpia mi lista
+- borra todas las tareas
+- elimina todas las tareas
+- olvida la lista
+- olvida la lista de tareas
+- vacia la lista
+- puedes eliminar {itemTitle=todo1}
+- podrias borrar la tarea {itemTitle=xxx}
+- borra {itemTitle=huevos} de la lista
+- saca {itemTitle=pancake mix} de la lista de compras
+- elimina {itemTitle=shampoo} de la lista de compras
+- descarta {itemTitle=shirts} de la lista
+- elimina tarea {itemTitle=ir a pescar}
+- elimina tarea {itemTitle=ir al cine esta noche}
+- elimina la entrada {itemTitle=comprar calcetines} de mi lista
+- elimina la segunda tarea de la lista de compras
+- elimina la tarea {itemTitle=limpiar la casa}
+- elimina la tarea que se llama {itemTitle=it al gym en las mananas}
+- elimina la tarea {itemTitle=verme con mis amigos en la noche}
+- borrar {itemTitle=comprar leche}
+- borrar {itemTitle=go shopping}
+- borrar {itemTitle=ir a caminar manana}
+- elimina {itemTitle=bananas} de la lista de compras
+- descarta {itemTitle=peanuts} de la lista de compras
+- elimina {itemTitle=asprin} de la lista de compras
+- elimina {itemTitle=black shoes} de la lista de compras
+- elimina {itemTitle=class} de la lista de compras
+- elimina {itemTitle=salad vegetables} de la lista de comestibles
+- elimina tarea {itemTitle=comprar comida de perro}
+- elimina {itemTitle=salir de compras}
+- olvidate de {itemTitle=ir a caminar}
+- olvida {itemTitle=cortar el cesped}
+- elimina {itemTitle=paris} de mi lista
+
+> entity definitions
+@ ml itemTitle
+
+> add number to catch item number
+@ prebuilt number
+
+> phrase list definitions
+@ phraseList deleteItem(interchangeable) = 
+	- eliminar
+    - elimina
+	- borrar
+    - borra
+	- limpiar
+    - limpia
+	- descartar
+    - descarta

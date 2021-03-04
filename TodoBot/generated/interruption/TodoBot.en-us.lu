@@ -143,12 +143,6 @@
 - what do i have on my list?
 
 
-# UserProfile
-- get started
-- Profile
-- my name is {@personName:userName}
-
-
 # whatCanYouDo
 - what can you do?
 
@@ -171,8 +165,6 @@
 
 
 > # PREBUILT Entity definitions
-
-@ prebuilt personName hasRole userName
 
 
 > # Phrase list definitions
