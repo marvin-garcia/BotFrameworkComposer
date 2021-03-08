@@ -1,0 +1,26 @@
+{
+    "name": "EchoBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "689b2daf-d2be-4180-883a-c64efbc3c551",
+            "appPassword": "geXjFi4A-K..E06XDaHvk4-Rv6kb_Q5Fm-",
+            "endpoint": "http://marvmultilingualbot.azurewebsites.net/api/messages",
+            "id": "50a7b6a0-8011-11eb-a344-1d80867203d4",
+            "name": "EchoBot"
+        },
+        {
+            "type": "endpoint",
+            "appId": "e252aaf2-b04a-4cc7-a3cb-653a360ab56d",
+            "appPassword": "s8T.c-hbmE3jby.-KX8_Q1EI6iFJsgTOnE",
+            "endpoint": "http://marvtodobot.azurewebsites.net/api/messages",
+            "id": "187",
+            "name": "TodoBot"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "C:\\Users\\magar\\source\\repos\\EchoBot\\EchoBot.bot",
+    "overrides": null
+}
